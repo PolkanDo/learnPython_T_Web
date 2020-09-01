@@ -1,0 +1,14 @@
+<html>
+        <head>
+            <title>{{ page_title }}</title>
+        </head>
+        <body>
+            <h1>
+            {% if weather %}
+                Weather: {{weather.temp_C}}, feels like {{weather.FeelsLikeC}}
+            {% else %}
+                Weather server is temporarily unavailable...
+            {% endif %}
+            </h1>
+        </body>
+    </html>
