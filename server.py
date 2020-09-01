@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    title = 'Weather'
+    title = 'Python News'
     weather = weather_by_city('Moscow,Russia')
     return render_template('index.html', page_title=title, weather=weather)
 
