@@ -3,3 +3,4 @@ env/
 __pycache__/
 config.py
 *.db
+Test.py
