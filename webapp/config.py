@@ -11,3 +11,5 @@ SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, '..', 'webapp.db'
 SECRET_KEY = "alskdjfiu34i025jw234dlfkjhLkgdfs84LIUG##$3yr39fsldhGOIUG"
 
 REMEMBER_COOKIE_DURATION = timedelta(days=5)
+
+SQLALCHEMY_TRACK_MODIFICATIONS = False
